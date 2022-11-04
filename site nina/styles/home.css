@@ -1,0 +1,45 @@
+.sessão{
+    background-color: #3F3636;
+    width: 100%;
+    padding: 0;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 2vw;
+}
+.sessão h2{
+    margin-top: 0;
+}
+h2 span{
+    font-weight: lighter;
+}
+table{
+    width: 80%;
+    margin: auto;
+}
+table .texto{
+    font-size: 1.8vw;
+    margin: 0 2vw 0 2vw;
+    line-height: 2vw;
+}
+
+table img{
+    width: 100%;
+    height: 25vw;
+    object-fit: cover;
+    border-radius: 0.5vw;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.685);
+}
+.video{
+    width: 100%;
+    text-align: center;
+}
+.video iframe{
+    width: 70%;
+    height: 40vw;
+}
+.video p{
+    width: 85%;
+    font-size: 1.6vw;
+    text-align: right;
+}

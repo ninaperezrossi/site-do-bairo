@@ -1,0 +1,82 @@
+.titulo p{
+    position: absolute;
+    top: 25%;
+    left: 32%;
+    font-size: 5vw;
+    animation: intro 1s linear;
+    color: rgb(94, 96, 110);
+}
+.sessão{
+    background-color: #3F3636;
+    width: 100%;
+    padding: 0;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 2vw;
+}
+.sessão h2{
+    margin-top: 0;
+}
+h2 span{
+    font-weight: lighter;
+}
+.intro{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+.intro p{
+    text-align: left;
+    font-size: 1.5vw;
+    line-height: 1.8vw;
+    margin-right: 2vw;
+}
+.intro > div{
+    width: 47%;
+    display: inline-block;
+    vertical-align: middle;
+}
+.intro iframe{
+    height: 25vw;
+    width: 100%;
+    border-radius: 1vw;
+}
+.imagensAssunto{
+    margin: auto;
+    width: 80%;
+    text-align: center;
+}
+.imagensAssunto ul{
+    padding: 0;
+    width: 100%;
+}
+.imagensAssunto li{
+    position: relative;
+    width: 32%;
+    margin: 0.2vw;
+    display: inline-block;
+}
+.imagensAssunto img{
+    width: 100%;
+    border-radius: 0.5vw;
+}
+.tituloImg{
+    z-index: 1;
+    position: absolute;
+    color: white;
+    bottom: 0.8vw;
+    border-radius: 0 0 0.5vw 0.5vw;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.32) 11.59%, #000000 100%);
+    width: 100%;
+}
+@keyframes intro{
+    0%{
+        margin-top: -10px;
+        opacity: 0;
+    }
+    100%{
+        margin-top: 60px;
+        opacity: 1;
+    }
+}

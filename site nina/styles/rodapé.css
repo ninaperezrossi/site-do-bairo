@@ -1,0 +1,31 @@
+footer{
+    margin-top: 5vw;
+    width: 100%;
+    background-color: #3F3636;
+    text-align: center;
+}
+footer > div{
+    margin: auto;
+    width: 100%;
+}
+footer div > div{
+    display: inline-block;
+    width: 49%;
+}
+.imgHome{
+    padding-top: 3vw;
+    width: 90%
+}
+footer img{
+    width: 3vw;
+    margin: 1vw;
+}
+footer a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.5vw;
+}
+footer a > *{
+    display: inline-block;
+    vertical-align: middle;
+}

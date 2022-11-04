@@ -1,0 +1,68 @@
+*{
+    font-family: 'NATS', sans-serif;
+}
+.banner-pirituba{
+    z-index: -1;
+    position: relative;
+    text-align: center;
+}
+.imagem-pirituba{
+    background-image: url(../img/background-página-inicial.png);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-top: 25%;
+    padding-bottom: 25%;
+} 
+.banner .titulo{
+    position: absolute;
+    width: 60vw;
+    height: 12vw;
+    text-align: center;
+    top: calc(50% - 6vw);
+    left: calc(50% - 30vw);
+    text-transform: uppercase;
+    color: white;
+}
+.titulo h1{
+    vertical-align: middle;
+    font-size: 10vw;
+    line-height: 0;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: #3F3636;
+    width: 100%;
+    position: fixed;
+    z-index: 2;
+    display: table;
+}
+header > *{
+    height: 5vw;
+    display: table-cell;
+    vertical-align: middle;
+}
+header li{
+    display: inline-block;
+}
+header li ~ li{
+    border-left: 2px solid white;
+}
+header li > *{
+    color: white;
+    text-transform: uppercase;
+    font-size: 1.5vw;
+    margin: 0;
+    padding: 2vw;
+}
+.logo{
+    width: 15vw;
+    padding-left: 2vw;
+}
+.perfil{
+    width: 3vw;
+}
